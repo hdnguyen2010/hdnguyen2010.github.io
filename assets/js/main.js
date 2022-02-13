@@ -168,3 +168,6 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
+/*==================== UPDATE YEARLY ====================*/ 
+var date = new Date().getFullYear();
+document.getElementById("year").innerHTML = date;
